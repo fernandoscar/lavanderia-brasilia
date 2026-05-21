@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato Empresarial – Lavanderia Brasília</title>
+  <meta name="description" content="Solicite uma proposta personalizada para sua empresa. Atendimento exclusivo B2B.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .fade-in { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+<!-- ═══════ NAVBAR ═══════ -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img src="img/logo.png" alt="Lavanderia Brasília">
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="servicos.html">Soluções</a></li>
+      <li><a href="contato.html" class="active">Contato Empresarial</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ═══════ PAGE HERO ═══════ -->
+<section class="page-hero">
+  <h1>Entre em Contato</h1>
+  <p>Solicite uma proposta personalizada para sua empresa</p>
+</section>
+
+<!-- ═══════ CONTACT FORM ═══════ -->
+<section class="contact-section">
+  <div class="contact-grid">
+
+    <div class="contact-form-card">
+      <h2>Proposta para Empresas</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="empresa">Nome da Empresa *</label>
+          <input type="text" id="empresa" name="empresa" placeholder="Sua Empresa Ltda" required>
+        </div>
+        <div class="form-group">
+          <label for="contato">Nome do Contato *</label>
+          <input type="text" id="contato" name="contato" placeholder="João Silva" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" name="email" placeholder="contato@empresa.com.br" required>
+        </div>
+        <div class="form-group">
+          <label for="telefone">Telefone *</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="(11) 1234-5678" required>
+        </div>
+        <div class="form-group">
+          <label for="quantidade">Quantidade Estimada de Peças/Kilo *</label>
+          <input type="text" id="quantidade" name="quantidade" placeholder="Ex: 500 peças" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Conte-nos mais sobre suas necessidades..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-full">✈️&nbsp; Enviar Proposta</button>
+      </form>
+    </div>
+
+    <div class="contact-info-col">
+      <div class="info-card">
+        <h3>Informações de Contato</h3>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-body">
+            <h4>Telefone</h4>
+            <p>(69) 99268-9930</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon orange">✉️</div>
+          <div class="info-body">
+            <h4>E-mail</h4>
+            <p>fernandofix11@sempreceub.com</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-body">
+            <h4>Endereço</h4>
+            <p>Lago Norte, Brasília – DF<br>CEP: 71000-000</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hours-card">
+        <h3>Horário de Atendimento</h3>
+        <div class="hours-row">
+          <span class="day">Segunda a Sexta</span>
+          <span class="time">8h às 18h</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Sábado</span>
+          <span class="time">8h às 12h</span>
+        </div>
+        <div class="hours-row">
+          <span class="day">Domingo</span>
+          <span class="time">Fechado</span>
+        </div>
+        <hr class="hours-divider">
+        <p class="hours-note">Atendimento exclusivo para empresas. Entre em contato e receba uma proposta personalizada!</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Lavanderia <span>Brasília</span></div>
+        <p>Há mais de 30 anos em lavanderia industrial.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Soluções</a></li>
+          <li><a href="contato.html">Contato Empresarial</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <div class="footer-contact-item"><span class="icon">📍</span><span>Lago Norte, Brasília – DF</span></div>
+        <div class="footer-contact-item"><span class="icon">✉️</span><span>fernandofix11@sempreceub.com</span></div>
+        <div class="footer-contact-item"><span class="icon">📞</span><span>(69) 99268-9930</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Lavanderia Brasília. Todos os direitos reservados.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Nossa história</a>
+        <a href="#">Privacidade</a>
+        <a href="#">Termos</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
